@@ -1,6 +1,7 @@
 <p align="center"> 
-  #<b>`Mental Health Fitness Tracker and Predictive Analysis`</b>
+  <b><h1>`Mental Health Fitness Tracker and Predictive Analysis`</h1></b>
 </p>
+
 ![linke3 mackph](https://i0.wp.com/fitpedia.com/wp-content/uploads/2017/03/brain-mental-fitness-dpc.jpg)
 
 ## <b>Description:</b>
