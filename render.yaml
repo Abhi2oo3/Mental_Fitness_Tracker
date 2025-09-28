@@ -2,13 +2,13 @@ services:
   - type: web
     name: mental-health-fitness-tracker
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: python app.py
     envVars:
       - key: FLASK_ENV
         value: production
       - key: PYTHON_VERSION
-        value: 3.9.7
+        value: 3.11.0
     healthCheckPath: /
     autoDeploy: true
     plan: free
