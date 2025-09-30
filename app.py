@@ -9,6 +9,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
+import os
+
+# Set matplotlib cache directory for Render
+os.environ['MPLCONFIGDIR'] = os.environ.get('MPLCONFIGDIR', '/tmp/matplotlib')
 import seaborn as sns
 import io
 import base64
